@@ -28,3 +28,15 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+# Running
+npm install -g create-vite
+create-vite my-react-app --template react-ts
+cd my-react-app
+npm install
+npm run dev
+
+REST url:
+https://3yxdd3ce42.execute-api.ap-southeast-2.amazonaws.com/get-news-api-function
+Frontend url:
+https://dgycl3rc0nold.cloudfront.net
